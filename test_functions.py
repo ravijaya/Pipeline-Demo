@@ -10,8 +10,8 @@ class TestFunctions(unittest.TestCase):
         self.value1 = 10
         self.value2 = 20
 
-	def test_power(self):
-		self.assertEqual(100000000000000000000, power(self.value1, self.value2))
+    def test_power(self):
+        self.assertEqual(100000000000000000000, power(self.value1, self.value2))
 
     def test_add_values(self):
         self.assertEqual(30, add_two_values(self.value1, self.value2))
