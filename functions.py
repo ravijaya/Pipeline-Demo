@@ -28,6 +28,9 @@ def get_full_name(firstname, lastname):
     """
     return lastname + ", " + firstname
 
+def power(x, n):
+	return x ** n 
+
 def main():
     add_multiple_values(1,2,3,4,5)
 
